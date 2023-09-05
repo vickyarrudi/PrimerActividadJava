@@ -24,6 +24,10 @@ Implemente la clase Lamparita, que sirva para representar el estado de encendido
 
 Recordar una vez realizado el ejercicio commitear y pushear los cambios.
 
+### Clone
+
+`$git clone HTTPS_del_repo`
+
 ### Commit 
 
 `$git stage --all`
