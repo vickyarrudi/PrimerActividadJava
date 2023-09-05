@@ -26,13 +26,13 @@ Recordar una vez realizado el ejercicio commitear y pushear los cambios.
 
 ### Commit 
 
-$git stage --all
+`$git stage --all`
 
-$git commit -am "mensaje_del_commit"
+`$git commit -am "mensaje_del_commit"`
 
 ### Push
 
-$git push
+`$git push`
 
 ### Branch
 
@@ -40,22 +40,22 @@ $git push
 
 Para esto crear una nueva rama y realizar sobre esta los nuevos cambios.
 
-$git checkout -b nueva_rama      (creo y me cambio a la nueva_rama)
+`$git checkout -b nueva_rama`      (creo y me cambio a la nueva_rama)
 
-$git push -u origin nueva_rama   (subo nueva_rama al repositorio remoto)
+`$git push -u origin nueva_rama`   (subo nueva_rama al repositorio remoto)
 
 6 - Cuando la nueva función este completada unir la rama feature al main
 
 ### Merge
 
 a. Verificar con
-**$git status**
+`$git status`
 que no haya nada para commitear
 
 b. Cambiar a la rama main
 
-**$git checkout main**
+`$git checkout main`
 
 c. Realizar el marge
 
-**$git marge nombre_rama**
+`$git marge nombre_rama`
