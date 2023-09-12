@@ -11,10 +11,9 @@ public class Lamparita {
     }
 
     public static void main(String[] args) throws Exception {
-
         System.out.println("Vamos a programar una lamparita!!");
         Lamparita lam1 = new Lamparita();
         lam1.apagar();
         System.out.println(lam1.estado());
-    }
+    }   
 }
